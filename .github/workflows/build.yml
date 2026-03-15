@@ -34,7 +34,7 @@ jobs:
       - name: Compile ESP32-C6 firmware
         run: |
           arduino-cli compile \
-            --fqbn esp32:esp32:esp32c6 \
+            --fqbn esp32:esp32:esp32c6 Esp32c6-radar.ino\
             --export-binaries \
             .
 
